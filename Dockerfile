@@ -6,6 +6,6 @@ RUN echo "http://nl.alpinelinux.org/alpine/v3.3/main" >> /etc/apk/repositories \
 && apk add tor@testing \
 && rm /var/cache/apk/*
 EXPOSE 9050 9053
-ADD start.sh /bin
-ADD torrc /etc
+ADD /start.sh /bin
+ADD /torrc /etc
 CMD /bin/start.sh
