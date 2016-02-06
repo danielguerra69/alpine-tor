@@ -9,7 +9,7 @@
 Start tor server / proxy
 
 ```bash
-docker run -d -p 9050:9050  -p 9053:53/udp --name torproxy danielguerra/alpine-tor
+docker run -d -p 9050:9050  -p 53:53/udp --name torproxy danielguerra/alpine-tor
 ```
 & check
 ```bash
