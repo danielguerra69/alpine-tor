@@ -6,14 +6,14 @@
 
 ### Usage
 
-Start tor server / proxy
+Start tor server
 
 ```bash
-docker run -d -p 9050:9050  -p 53:53/udp --name torproxy danielguerra/alpine-tor
+docker run -d -p 9050:9050  -p 53:53/udp --name torserver danielguerra/alpine-tor
 ```
 & check
 ```bash
-docker logs torproxy
+docker logs torserver
 ```
 
-Set your browser proxy settings or sytem-wide ,to SOCKS(5) proxy : dockerhost 9050
+Set your browser proxy settings or system-wide ,to SOCKS(5) proxy : dockerhost 9050
