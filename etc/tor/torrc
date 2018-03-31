@@ -17,6 +17,6 @@ VirtualAddrNetwork 10.192.0.0/10
 AutomapHostsOnResolve 1
 
 # public onion dns server
-DNSPort 0.0.0.0:5353
+DNSPort 0.0.0.0:53
 
 TransPort 0.0.0.0:9040
